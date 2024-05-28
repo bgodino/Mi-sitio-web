@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguros Vida, Decesos y Salud</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #003f7f;
+        }
+        .container {
+            padding: 2rem;
+        }
+        h1, h2 {
+            color: #007BFF;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+        .service {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            flex: 1 1 calc(33% - 2rem);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .service:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seguros Vida, Decesos y Salud</h1>
+    </header>
+    <nav>
+        <a href="#vida">Vida</a>
+        <a href="#decesos">Decesos</a>
+        <a href="#salud">Salud</a>
+    </nav>
+    <div class="container">
+        <h2 id="vida">Seguros de Vida</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Cobertura Básica</h3>
+                <p>Protección financiera para tus seres queridos en caso de fallecimiento.</p>
+            </div>
+            <div class="service">
+                <h3>Cobertura Completa</h3>
+                <p>Incluye cobertura por fallecimiento, invalidez y enfermedades graves.</p>
+            </div>
+        </div>
+
+        <h2 id="decesos">Seguros de Decesos</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Cobertura Básica</h3>
+                <p>Asistencia para los gastos funerarios y trámites necesarios.</p>
+            </div>
+            <div class="service">
+                <h3>Cobertura Completa</h3>
+                <p>Incluye repatriación, gestión de documentos y apoyo psicológico.</p>
+            </div>
+        </div>
+
+        <h2 id="salud">Seguros de Salud</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Plan Básico</h3>
+                <p>Acceso a una red de hospitales y clínicas privadas con copago reducido.</p>
+            </div>
+            <div class="service">
+                <h3>Plan Completo</h3>
+                <p>Cobertura total sin copagos y acceso a tratamientos especializados.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Seguros Vida, Decesos y Salud. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
